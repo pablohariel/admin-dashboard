@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Admin Dashboard</title>
+</head>
+<body>
+  <aside class="left-bar">
+    <div class="logo">
+      <img class="logo__img" src="./assets/menu-icons/logo.svg" alt="Dashboard icon">
+      <h1 class="logo__text">Dashboard</h1>
+    </div>
+
+    <nav class="menu">
+      <ul class="menu__link-list">
+        <li class="menu__item">
+          <div class="menu-link">
+            <img class="menu-link__icon" src="./assets/menu-icons/home.svg" alt="Home icon">
+            <span class="menu-link__text">Home</span>
+          </div>
+        </li>
+        <li class="menu__item">
+          <div class="menu-link">
+            <img class="menu-link__icon" src="./assets/menu-icons/account.svg" alt="Profile icon">
+            <span class="menu-link__text">Profile</span>
+          </div>
+        </li>
+        <li class="menu__item">
+          <div class="menu-link">
+            <img class="menu-link__icon" src="./assets/menu-icons/messages.svg" alt="Messages icon">
+            <span class="menu-link__text">Messages</span>
+          </div>
+        </li>
+        <li class="menu__item">
+          <div class="menu-link">
+            <img class="menu-link__icon" src="./assets/menu-icons/clock.svg" alt="Clock icon">
+            <span class="menu-link__text">History</span>
+          </div>
+        </li>
+        <li class="menu__item">
+          <div class="menu-link">
+            <img class="menu-link__icon" src="./assets/menu-icons/note.svg" alt="Note icon">
+            <span class="menu-link__text">Tasks</span>
+          </div>
+        </li>
+        <li class="menu__item">
+          <div class="menu-link">
+            <img class="menu-link__icon" src="./assets/menu-icons/people.svg" alt="People icon">
+            <span class="menu-link__text">Communities</span>
+          </div>
+        </li>
+      </ul>
+  
+      <ul class="menu__link-list">
+        <li class="menu__item">
+          <div class="menu-link">
+            <img class="menu-link__icon" src="./assets/menu-icons/settings.svg" alt="Settings icon">
+            <span class="menu-link__text">Settings</span>
+          </div>
+        </li>
+        <li class="menu__item">
+          <div class="menu-link">
+            <img class="menu-link__icon" src="./assets/menu-icons/help.svg" alt="Help icon">
+            <span class="menu-link__text">Support</span>
+          </div>
+        </li>
+        <li class="menu__item">
+          <div class="menu-link">
+            <img class="menu-link__icon" src="./assets/menu-icons/shield.svg" alt="Shield icon">
+            <span class="menu-link__text">Privacy</span>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+  <div class="page">
+
+  <header class="header">
+    <div class="header-top-group">
+      <div class="burguer-menu">
+        <img src="./assets/menu.svg" alt="Burguer menu icon">
+      </div>
+
+
+      <div class="search-bar">
+        <img class="search-bar__icon" src="./assets/menu-icons/magnify.svg" alt="Search bar icon">
+        <input class="search-bar__input" type="text">
+      </div>
+
+      <div class="notify-icon">
+        <img src="./assets/menu-icons/bell.svg" alt="Notify icon">
+      </div>
+
+      <div class="user-info">
+        <img class="user-info__img profile-img profile-img--small" src="./assets/images/profile.png" alt="Profile image">
+        <span class="user-info__name">Pablo Hariel</span>
+      </div>
+    </div>
+    
+    <div class="header-bottom-group">
+      <div class="user-welcome">
+        <img class="user-welcome__img profile-img profile-img--large" src="./assets/images/profile.png" alt="Profile image">
+
+        <div class="text-group">
+          <span class="user-welcome__message">Hi there,</span>
+          <span class="user-welcome__name">Pablo Hariel (@pablo)</span>
+        </div>  
+      </div>
+
+      <div class="button-group">
+        <button class="button">New</button>
+        <button class="button">Upload</button>
+        <button class="button">Share</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="projects">
+      <h2 class="projects__title subtitle">Your Projects</h2>
+
+      <ul class="projects__list">
+        <li class="projects__item">
+          <div class="project-card">
+            <div class="project-card__text-group">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel iste maxime quas ad velit officia eveniet iure ea voluptates quaerat blanditiis debitis, veritatis, dolorem vitae eum molestias. Blanditiis, porro excepturi.
+              </p>
+            </div>  
+  
+            <div class="project-card__button_group">
+              <img src="./assets/card-icons/star-plus.svg" alt="Plur icon" class="project-card__icon">
+              <img src="./assets/card-icons/eye-plus.svg" alt="Eye icon" class="project-card__icon">
+              <img src="./assets/card-icons/source-fork.svg" alt="Fork icon" class="project-card__icon">
+            </div>
+          </div>
+        </li>
+        <li class="projects__item">
+          <div class="project-card">
+            <div class="project-card__text-group">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel iste maxime quas ad velit officia eveniet iure ea voluptates quaerat blanditiis debitis, veritatis, dolorem vitae eum molestias. Blanditiis, porro excepturi.
+              </p>
+            </div>  
+  
+            <div class="project-card__button_group">
+              <img src="./assets/card-icons/star-plus.svg" alt="Star icon" class="project-card__icon">
+              <img src="./assets/card-icons/eye-plus.svg" alt="Eye icon" class="project-card__icon">
+              <img src="./assets/card-icons/source-fork.svg" alt="Fork icon" class="project-card__icon">
+            </div>
+          </div>
+        </li>
+        <li class="projects__item">
+          <div class="project-card">
+            <div class="project-card__text-group">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel iste maxime quas ad velit officia eveniet iure ea voluptates quaerat blanditiis debitis, veritatis, dolorem vitae eum molestias. Blanditiis, porro excepturi.
+              </p>
+            </div>  
+  
+            <div class="project-card__button_group">
+              <img src="./assets/card-icons/star-plus.svg" alt="Star icon" class="project-card__icon">
+              <img src="./assets/card-icons/eye-plus.svg" alt="Eye icon" class="project-card__icon">
+              <img src="./assets/card-icons/source-fork.svg" alt="Fork icon" class="project-card__icon">
+            </div>
+          </div>
+        </li>
+        <li class="projects__item">
+          <div class="project-card">
+            <div class="project-card__text-group">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel iste maxime quas ad velit officia eveniet iure ea voluptates quaerat blanditiis debitis, veritatis, dolorem vitae eum molestias. Blanditiis, porro excepturi.
+              </p>
+            </div>  
+  
+            <div class="project-card__button_group">
+              <img src="./assets/card-icons/star-plus.svg" alt="Star icon" class="project-card__icon">
+              <img src="./assets/card-icons/eye-plus.svg" alt="Eye icon" class="project-card__icon">
+              <img src="./assets/card-icons/source-fork.svg" alt="Fork icon" class="project-card__icon">
+            </div>
+          </div>
+        </li>
+        <li class="projects__item">
+          <div class="project-card">
+            <div class="project-card__text-group">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel iste maxime quas ad velit officia eveniet iure ea voluptates quaerat blanditiis debitis, veritatis, dolorem vitae eum molestias. Blanditiis, porro excepturi.
+              </p>
+            </div>  
+  
+            <div class="project-card__button_group">
+              <img src="./assets/card-icons/star-plus.svg" alt="Star icon" class="project-card__icon">
+              <img src="./assets/card-icons/eye-plus.svg" alt="Eye icon" class="project-card__icon">
+              <img src="./assets/card-icons/source-fork.svg" alt="Fork icon" class="project-card__icon">
+            </div>
+          </div>
+        </li>
+        <li class="projects__item">
+          <div class="project-card">
+            <div class="project-card__text-group">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel iste maxime quas ad velit officia eveniet iure ea voluptates quaerat blanditiis debitis, veritatis, dolorem vitae eum molestias. Blanditiis, porro excepturi.
+              </p>
+            </div>  
+  
+            <div class="project-card__button_group">
+              <img src="./assets/card-icons/star-plus.svg" alt="Star icon" class="project-card__icon">
+              <img src="./assets/card-icons/eye-plus.svg" alt="Eye icon" class="project-card__icon">
+              <img src="./assets/card-icons/source-fork.svg" alt="Fork icon" class="project-card__icon">
+            </div>
+          </div>
+        </li>
+        <li class="projects__item">
+          <div class="project-card">
+            <div class="project-card__text-group">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel iste maxime quas ad velit officia eveniet iure ea voluptates quaerat blanditiis debitis, veritatis, dolorem vitae eum molestias. Blanditiis, porro excepturi.
+              </p>
+            </div>  
+  
+            <div class="project-card__button_group">
+              <img src="./assets/card-icons/star-plus.svg" alt="Star icon" class="project-card__icon">
+              <img src="./assets/card-icons/eye-plus.svg" alt="Eye icon" class="project-card__icon">
+              <img src="./assets/card-icons/source-fork.svg" alt="Fork icon" class="project-card__icon">
+            </div>
+          </div>
+        </li>
+        <li class="projects__item">
+          <div class="project-card">
+            <div class="project-card__text-group">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel iste maxime quas ad velit officia eveniet iure ea voluptates quaerat blanditiis debitis, veritatis, dolorem vitae eum molestias. Blanditiis, porro excepturi.
+              </p>
+            </div>  
+  
+            <div class="project-card__button_group">
+              <img src="./assets/card-icons/star-plus.svg" alt="Star icon" class="project-card__icon">
+              <img src="./assets/card-icons/eye-plus.svg" alt="Eye icon" class="project-card__icon">
+              <img src="./assets/card-icons/source-fork.svg" alt="Fork icon" class="project-card__icon">
+            </div>
+          </div>
+        </li>
+        <li class="projects__item">
+          <div class="project-card">
+            <div class="project-card__text-group">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel iste maxime quas ad velit officia eveniet iure ea voluptates quaerat blanditiis debitis, veritatis, dolorem vitae eum molestias. Blanditiis, porro excepturi.
+              </p>
+            </div>  
+  
+            <div class="project-card__button_group">
+              <img src="./assets/card-icons/star-plus.svg" alt="Star icon" class="project-card__icon">
+              <img src="./assets/card-icons/eye-plus.svg" alt="Eye icon" class="project-card__icon">
+              <img src="./assets/card-icons/source-fork.svg" alt="Fork icon" class="project-card__icon">
+            </div>
+          </div>
+        </li>
+        <li class="projects__item">
+          <div class="project-card">
+            <div class="project-card__text-group">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel iste maxime quas ad velit officia eveniet iure ea voluptates quaerat blanditiis debitis, veritatis, dolorem vitae eum molestias. Blanditiis, porro excepturi.
+              </p>
+            </div>  
+  
+            <div class="project-card__button_group">
+              <img src="./assets/card-icons/star-plus.svg" alt="Star icon" class="project-card__icon">
+              <img src="./assets/card-icons/eye-plus.svg" alt="Eye icon" class="project-card__icon">
+              <img src="./assets/card-icons/source-fork.svg" alt="Fork icon" class="project-card__icon">
+            </div>
+          </div>
+        </li>
+        <li class="projects__item">
+          <div class="project-card">
+            <div class="project-card__text-group">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel iste maxime quas ad velit officia eveniet iure ea voluptates quaerat blanditiis debitis, veritatis, dolorem vitae eum molestias. Blanditiis, porro excepturi.
+              </p>
+            </div>  
+  
+            <div class="project-card__button_group">
+              <img src="./assets/card-icons/star-plus.svg" alt="Star icon" class="project-card__icon">
+              <img src="./assets/card-icons/eye-plus.svg" alt="Eye icon" class="project-card__icon">
+              <img src="./assets/card-icons/source-fork.svg" alt="Fork icon" class="project-card__icon">
+            </div>
+          </div>
+        </li>
+        <li class="projects__item">
+          <div class="project-card">
+            <div class="project-card__text-group">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel iste maxime quas ad velit officia eveniet iure ea voluptates quaerat blanditiis debitis, veritatis, dolorem vitae eum molestias. Blanditiis, porro excepturi.
+              </p>
+            </div>  
+  
+            <div class="project-card__button_group">
+              <img src="./assets/card-icons/star-plus.svg" alt="Star icon" class="project-card__icon">
+              <img src="./assets/card-icons/eye-plus.svg" alt="Eye icon" class="project-card__icon">
+              <img src="./assets/card-icons/source-fork.svg" alt="Fork icon" class="project-card__icon">
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <aside class="main__aside">
+      <section class="announcements">
+        <h2 class="announcements__title subtitle">Announcements</h2>
+
+        <ul class="announcements__list">
+          <li class="announcements__item">
+            <div class="announcement-card">
+              <h3 class="announcement-card__title">Site Maintenance</h3> 
+              <p class="announcement-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae alias provident asperiores nemo!</p>
+            </div>
+          </li>
+          <li class="announcements__item">
+            <div class="announcement-card">
+              <h3 class="announcement-card__title">Community Share Day</h3> 
+              <p class="announcement-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae alias provident asperiores nemo!</p>
+            </div>
+          </li>
+          <li class="announcements__item">
+            <div class="announcement-card">
+              <h3 class="announcement-card__title">Updated Privacy Policy</h3> 
+              <p class="announcement-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae alias provident asperiores nemo!</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="trending">
+        <h2 class="trending__title subtitle">Trending</h2>
+
+        <ul class="trending__list">
+          <li class="trending__item">
+            <div class="trending-card">
+              <img class="trending-card__img profile-img profile-img--small" src="./assets/images/lisa-profile.png" alt="Profile image">
+
+              <div class="trending-card__text-group">
+                <h3 class="trending-card__title">@lisa</h3>
+                <p class="trending-card__text">World Peace Builder</p>
+              </div>
+            </div>
+          </li>
+          <li class="trending__item">
+            <div class="trending-card">
+              <img class="trending-card__img profile-img profile-img--small" src="./assets/images/homer-profile.png" alt="Profile image">
+
+              <div class="trending-card__text-group">
+                <h3 class="trending-card__title">@homer</h3>
+                <p class="trending-card__text">Super Cool Project</p>
+              </div>
+            </div>
+          </li>
+          <li class="trending__item">
+            <div class="trending-card">
+              <img class="trending-card__img profile-img profile-img--small" src="./assets/images/bart-profile.png" alt="Profile image">
+
+              <div class="trending-card__text-group">
+                <h3 class="trending-card__title">@bart</h3>
+                <p class="trending-card__text">Life Changing App</p>
+              </div>
+            </div>
+          </li>
+          <li class="trending__item">
+            <div class="trending-card">
+              <img class="trending-card__img profile-img profile-img--small" src="./assets/images/marge-profile.png" alt="Profile image">
+
+              <div class="trending-card__text-group">
+                <h3 class="trending-card__title">@marge</h3>
+                <p class="trending-card__text">No Traffic Maker</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </aside>
+  </main>
+  </div>
+
+</body>
+</html>
