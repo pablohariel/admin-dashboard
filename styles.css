@@ -378,8 +378,8 @@ html {
   }
 
   .search-bar__icon {
-    height: 20px;
-    margin-right: 8px;
+    height: 24px;
+    margin-right: 4px;
   }
 
   .search-bar__input {
@@ -387,8 +387,14 @@ html {
     padding: 5px 10px;
   }
   
+  .notify-icon {
+    padding-right: 20px;
+  }
+
   .notify-icon img {  
-    width: 18px;
+    width: 24px;
+    height: 24px;
+    padding: 4px;
   }
 
   .user-info__img {
